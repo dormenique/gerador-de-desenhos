@@ -8,8 +8,7 @@ function gerarTema(){
     var randomAção = ação[Math.floor(Math.random() * ação.length)];
     var randomElemento = elemento[Math.floor(Math.random() * elemento.length)];
     var randomComplemento = complemento[Math.floor(Math.random() * complemento.length)];
-  
- 
-  document.getElementById('resultado').innerHTML="Um" + " " + randomSujeito + " " + randomAção + " " + randomElemento + " " + "em" + " " + randomComplemento
+   
+    document.getElementById('resultado').innerHTML="Um" + " " + randomSujeito + " " + randomAção + " " + randomElemento + " " + "em" + " " + randomComplemento
 }
 
