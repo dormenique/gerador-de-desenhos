@@ -1,0 +1,53 @@
+div.caixa {
+  background-color: #F09592;
+  padding: 10px;
+  border-radius: 20px;
+}
+h1{
+  font-family: arial, sans-serif;
+  color: #00000;
+  font-size: 1.6x;
+  text-align: center;
+}
+p {
+  font-family: arial, sans-serif;
+  font-size: 1.4x;
+  font-weight: bold;
+  text-align: center;
+}
+button.gerar{
+  font-family: arial, sans-serif;
+  font-size: 1.6x;
+  font-weight: bold;
+  text-align: center;
+  border-size: 1px;
+  border-color: #F7C0BE;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+div.frase{
+  background-color: #A33C39;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+h2{
+  font-family: arial, sans-serif;
+  color: #F7C0BE;
+  text-align: center;
+}
+#repetir{
+  font-family: arial, sans-serif;
+  font-size: 1.6x;
+  font-weight: bold;
+  text-align: center;
+  border-size: 1px;
+  border-color: #F7C0BE;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin-top:20px;
+}
