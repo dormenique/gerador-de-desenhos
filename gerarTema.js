@@ -1,14 +1,12 @@
-function gerarTema(){
-    var sujeito = ["cachorro", "gato", "lâmpada", "banana", "garfo"];
-    var ação = ["vestido de", "montado em um", "ao lado de um"];
-    var elemento = ["unicórnio", "drag queen", "abelha", "marinheiro", "monstro"];
-    var complemento = ["cores quentes", "cores complementares", "preto e branco", "pontilhismo", "esquema monocromático"];
+function themeGen(){
+    var item = ["dog", "cat", "candle", "banana", "fork"];
+    var action = ["dressed like a", "inside a", "next to a"];
+    var element = ["unicorn", "drag queen", "bee", "bunny", "monster"];
 
-    var randomSujeito = sujeito[Math.floor(Math.random() * sujeito.length)];
-    var randomAção = ação[Math.floor(Math.random() * ação.length)];
-    var randomElemento = elemento[Math.floor(Math.random() * elemento.length)];
-    var randomComplemento = complemento[Math.floor(Math.random() * complemento.length)];
-   
-    document.getElementById('resultado').innerHTML="Um" + " " + randomSujeito + " " + randomAção + " " + randomElemento + " " + "em" + " " + randomComplemento
+    var randomItem = item[Math.floor(Math.random() * item.length)];
+    var randomAction = action[Math.floor(Math.random() * action.length)];
+    var randomElement = element[Math.floor(Math.random() * element.length)];
+  
+  document.getElementById('result').innerHTML= "A " + randomItem + " " + randomAction + " " + randomElement
 }
 
