@@ -1,58 +1,65 @@
-div.caixa {
-  background-color: #F09592;
+#box{
+  background-color: #AC66CC;
   padding: 10px;
-  border-radius: 20px;
+  margin: auto;
+  width: 600px;
+  border: 4px solid black;
+  box-shadow: 5px 5px black;
 }
 
 h1{
-  font-family: arial, sans-serif;
-  color: #00000;
-  font-size: 1.6x;
+  font-family: 'Staatliches', cursive;
+  color: #000000;
+  font-size: 40px;
   text-align: center;
-}
-
-p {
-  font-family: arial, sans-serif;
-  font-size: 1.4x;
-  font-weight: bold;
-  text-align: center;
-}
-
-button.gerar{
-  font-family: arial, sans-serif;
-  font-size: 1.6x;
-  font-weight: bold;
-  text-align: center;
-  border-size: 1px;
-  border-color: #F7C0BE;
-  border-radius: 10px;
   padding: 10px;
-  width: 100%;
-  height: auto;
+  margin: auto;
+  background-color: #F6B8B8;
+  box-shadow: 5px 5px black;
 }
 
-div.frase{
-  background-color: #A33C39;
+p{
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+
+#gen{
+  font-family: 'Staatliches', cursive;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  border-size: 4px;
+  border-color: #000000;
+  margin: 0 auto;
+  display: block;
+}
+
+#gen:hover{
+  background: #FFED99;
+  transition-duration: 0.4s;
+}
+#gen:active{
+  box-shadow: 4px 4px 4px 0 #000000;
+}
+
+#theme{
+  background-color: #FFED99;
   padding: 10px;
-  border-radius: 20px;
-  margin-top: 10px;
+  margin: auto;
+  width: 600px;
+  border: 4px solid black;
+  box-shadow: 5px 5px black;
 }
 
 h2{
-  font-family: arial, sans-serif;
-  color: #F7C0BE;
+  font-family: 'Lato', sans-serif;
+  color: #AC66CC;
+  font-size: 30px;
   text-align: center;
 }
-#repetir{
-  font-family: arial, sans-serif;
-  font-size: 1.6x;
-  font-weight: bold;
-  text-align: center;
-  border-size: 1px;
-  border-color: #F7C0BE;
-  border-radius: 10px;
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  margin-top:20px;
+
+body{
+  background-image: linear-gradient(to right, #FFED99, #F6B8B8, #AC66CC, #3B14A7);
 }
